@@ -9,6 +9,7 @@ output: html_document
 ####Our Data Sets
 
 * Global earthquake records from the last 50 years (~570,000 rows)
+* Average annual losses from earthquakes (~ 200 rows after excluding those with missing data)
 * Global tsunami source data (~2,500 rows)
 * Global tsunami runup data (~25,000 rows)
     + includes tsunamis from approximately the last two thousand years, but mostly from the last few hundred
@@ -45,6 +46,7 @@ possibleError <- tryCatch(
 if(!inherits(possibleError, "error")){
   # Reading in the data
   seismic_data <- dbGetQuery(jdbcConnection, "select * from seismic_data")
+  earthquake_losses <- dbGetQuery(jdbcConnection, "select * from earthquake_losses where average_annual_loss <> -9999")
   tsunami_runup_data <- dbGetQuery(jdbcConnection, "select * from tsunami_runup_data")
   tsunami_source_data <- dbGetQuery(jdbcConnection, "select * from tsunami_source_data")
   volcano_data <- dbGetQuery(jdbcConnection, "select * from volcano_data")
@@ -71,6 +73,10 @@ if(!inherits(possibleError, "error")){
         + 3.0 was chosen as a minimum because that is generally the minimum threshold for people to notice an earthquake
     + maximum_magnitude = 10
     + event_type = E
+    
+[__Global Risk Data Platform: Earthquakes - Risk, Annual Average Losses__](http://preview.grid.unep.ch/index.php?preview=data&events=earthquakes&evcat=8&lang=eng)
+
+* rows that didn't have information regarding economic losses (denoted by the value -9999) where excluded when reading the data from Oracle into RStudio
     
 [__National Geophysical Data Center / World Data Service (NGDC/WDS): Significant Volcanic Eruptions Database__](http://www.ngdc.noaa.gov/nndc/servlet/ShowDatasets?dataset=102557&search_look=50&display_look=50)
 
