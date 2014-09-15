@@ -56,8 +56,22 @@ if(!inherits(possibleError, "error")){
 ```
 
 ####Some practice plots
+#####Correlation plots for seismic data
 ```{r}
+GGally::ggpairs(seismic_data[,c(4,5,7)])
+```
 
+#####Earthquake losses scatter plot, region vs. average annual loss
+```{r}
+library(ggplot2)
+ggplot(data = earthquake_losses, aes(x = REGION, y = AVERAGE_ANNUAL_LOSS)) + geom_point()
+```
+
+#####Earthquake losses boxplot, region vs. average annual loss without Japan
+```{r}
+# Remove Japan from the data set, since it is such an extreme outlier
+earthquake_losses_no_japan <- earthquake_losses[-96,]
+ggplot(data = earthquake_losses_no_japan, aes(x = REGION, y = AVERAGE_ANNUAL_LOSS)) + geom_boxplot()
 ```
 
 ####Sources for the Data
