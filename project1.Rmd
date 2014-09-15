@@ -74,6 +74,21 @@ earthquake_losses_no_japan <- earthquake_losses[-96,]
 ggplot(data = earthquake_losses_no_japan, aes(x = REGION, y = AVERAGE_ANNUAL_LOSS)) + geom_boxplot()
 ```
 
+#####Histogram of earthquake magnitudes
+```{r}
+ggplot(data = seismic_data, aes(x = MAGNITUDE)) + geom_histogram()
+```
+
+#####Volcano data scatter plot, VEI (Volcano Explosivity Index) vs. number of deaths
+```{r}
+ggplot(data = volcano_data, aes(x = VEI, y = NUM_DEATHS)) + geom_point()
+```
+
+#####Histogram of the VEI of eruptions
+```{r}
+ggplot(data = volcano_data, aes(x = VEI)) + geom_histogram(binwidth = 1)
+```
+
 ####Sources for the Data
 [__ANSS (Advanced National Seismic System) Global Earthquake Catalog__](http://ncedc.org/anss/catalog-search.html)
 
