@@ -1,9 +1,7 @@
-
 ---
 title: "CS 378 Data Science Project1: ggplot/shiny"
 output: html_document
 ---
-
 
 ##A look at natural disaster records 
 
@@ -23,6 +21,43 @@ output: html_document
 library(googleVis)
 sessionInfo()
 ```
+
+####Some practice plots
+#####Correlation plots for seismic data
+```{r, eval=FALSE}
+GGally::ggpairs(seismic_data[,c(4,5,7)])
+```
+![](./plots/SeismicCorrelation.png)
+
+#####Earthquake losses scatter plot, region vs. average annual loss
+```{r, eval=FALSE}
+library(ggplot2)
+ggplot(data = earthquake_losses, aes(x = REGION, y = AVERAGE_ANNUAL_LOSS)) + geom_point()
+```
+![](./plots/AvgAnnualLoss.png)
+#####Earthquake losses boxplot, region vs. average annual loss without Japan
+```{r, eval=FALSE}
+# Remove Japan from the data set, since it is such an extreme outlier
+earthquake_losses_no_japan <- earthquake_losses[-96,]
+ggplot(data = earthquake_losses_no_japan, aes(x = REGION, y = AVERAGE_ANNUAL_LOSS)) + geom_boxplot()
+![](./plots/AvgAnnualLossNoJapan.png)```
+
+#####Histogram of earthquake magnitudes
+```{r, eval=FALSE}
+ggplot(data = seismic_data, aes(x = MAGNITUDE, fill='blue')) + geom_density()
+```
+![](./plots/EQMagDensity.png)
+#####Volcano data scatter plot, VEI (Volcano Explosivity Index) vs. number of deaths
+```{r,eval=FALSE}
+ggplot(data = volcano_data, aes(x = VEI, y = NUM_DEATHS)) + geom_point()
+```
+![](./plots/VEIvsDeaths.png)
+
+#####Histogram of the VEI of eruptions
+```{r,eval=FALSE}
+ggplot(data = volcano_data, aes(x = VEI)) + geom_histogram(binwidth = 1)
+```
+![](./plots/VEI.png)
 
 ### Geo Spatial Summary analysis
 #### Top 10 Locations of Tsunami deaths since 2010
