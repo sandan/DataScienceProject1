@@ -1,0 +1,475 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C663A47-D742-58AC-7C06-22851D730818" name="TSUNAMI_RUNUP_DATA">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>C##CS347_MAS5774</sourceObjSchema>
+<sourceObjName>TSUNAMI_RUNUP_DATA</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:15 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="I_D" id="76DE64C5-233E-0697-1E23-6E8E7C41468A">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>I_D</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TSEVENT_ID" id="D15726AA-528A-E5EE-3129-78ABC6563777">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>TSEVENT_ID</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="AB509D3D-6691-97F5-BD2E-8CFD23ADE68F">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="BC573775-850E-BCC7-84C5-71D4D1031902">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>MONTH</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY" id="889A21DD-7393-8C70-5888-B2FB7C34016F">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>DAY</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOUBTFUL" id="2BDFB1D9-8F75-EDC2-D91C-C01E698F2817">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>DOUBTFUL</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="0705E03E-678F-2BCE-388F-98C9F1655D9C">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>43 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="F6A5B4DC-B0D7-30F9-A695-AE1FA3784585">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_NAME" id="C40876F3-C169-34B8-ADAD-3620D51986C1">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>LOCATION_NAME</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="44AFCC81-66CB-8D5B-2FD2-E9AB6844FE98">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE" id="4F07774D-F75B-4DE5-A06E-6DC81E3A745A">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_CODE" id="387130D0-FA90-AA14-111E-A606F78D9BB2">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>REGION_CODE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTANCE_FROM_SOURCE" id="CF577996-4BEF-4027-C850-616B6E48EC09">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>DISTANCE_FROM_SOURCE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAVEL_TIME_HOURS" id="BEEA4EDB-DFDA-F472-588A-7B52E6E8B084">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>TRAVEL_TIME_HOURS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAVEL_TIME_MINUTES" id="8EF34912-766B-1FFC-340B-594EDB9B075E">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>TRAVEL_TIME_MINUTES</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WATER_HT" id="E2027D43-D111-E926-10AF-649C20A6F632">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>WATER_HT</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORIZONTAL_INUNDATION" id="0DE56655-2FFE-EAC0-59A3-27FDCB8D256C">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>HORIZONTAL_INUNDATION</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_MEASUREMENT_ID" id="4403B357-EACC-A789-62D2-C51238E77810">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>TYPE_MEASUREMENT_ID</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIOD" id="BDE06AC1-CB00-119E-E641-CF2720406BFD">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>PERIOD</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_MOTION" id="E90508AF-903D-BBB7-BE1E-22C28BC61FE2">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>FIRST_MOTION</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEATHS" id="5C266C36-45D6-809B-EA99-BE99F7637FB4">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>DEATHS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEATHS_DESCR" id="20DB4ADD-2BC2-24C5-3BEB-E1D34FEC60C1">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>DEATHS_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INJURIES" id="92D209AA-4B97-0936-7B80-5EFC27182567">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>INJURIES</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INJURIES_DESCR" id="79506A4F-D809-8227-DDA1-D44039B1EDA6">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>INJURIES_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAMAGE_MILLIONS_DOLLARS" id="433577DC-975D-55CF-4799-C2BD9062AFC1">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>DAMAGE_MILLIONS_DOLLARS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAMAGE_DESCR" id="2A8A733F-9B04-7E84-B608-2CAED5A37FC5">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>DAMAGE_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSES_DAMAGED" id="27A653D6-0667-3A9D-CD1C-B5ECC6632498">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>HOUSES_DAMAGED</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSES_DAMAGED_DESCR" id="0320FEBB-A801-0C85-208A-912A9E120851">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>HOUSES_DAMAGED_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSES_DESTROYED" id="A0B5FAD0-8C91-AD54-EF82-D28DDB07E0D3">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>HOUSES_DESTROYED</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSES_DESTROYED_DESCR" id="1C7D0607-E3FE-4ED7-7C81-896FD5CB985A">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>TSUNAMI_RUNUP_DATA</sourceObjSchema>
+<sourceObjName>HOUSES_DESTROYED_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:17 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D94CA1B-203A-F9EF-680B-C903E0AC0537" name="TSUNAMI_RUNUP_DATA_PK">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>C##CS347_MAS5774</sourceObjSchema>
+<sourceObjName>SYS_C0011366</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:19 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76DE64C5-233E-0697-1E23-6E8E7C41468A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

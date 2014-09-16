@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5C81E03-ECFF-462A-CC75-31D7E39C088B" name="EARTHQUAKE_LOSSES">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>C##CS347_MAS5774</sourceObjSchema>
+<sourceObjName>EARTHQUAKE_LOSSES</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:14 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GID" id="94AAA2FA-8D02-0FC3-9C9D-2469AFCA9F52">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>GID</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TERR_ID" id="C8CC5645-B7F7-C542-0A21-7F99BEEAAC13">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>TERR_ID</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TERR_NAME" id="01C6606D-954F-1E2B-31EF-642EE5F6E279">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>TERR_NAME</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>44 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISO3_CODE" id="44CC747B-4446-7DA9-7347-AA247E450733">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>ISO3_CODE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION" id="FD8ACA5E-8E14-49C5-713E-7A46744771C6">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>REGION</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVERAGE_ANNUAL_LOSS" id="7C4CC181-2A3D-E0FB-5EB1-F43C19345153">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>AVERAGE_ANNUAL_LOSS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROBABLE_MAXIMUM_LOSS" id="C0171814-8D56-C514-18CD-A48CD24B9F0C">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>PROBABLE_MAXIMUM_LOSS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVERAGE_ANNUAL_FISCAL_LOSS" id="1629D7E4-37BA-1B39-3F0E-8A0B35082D4D">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>AVERAGE_ANNUAL_FISCAL_LOSS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROBABLE_MAXIMUM_FISCAL_LOSS" id="14F284D3-7A5B-B7F3-CFE0-9A86590F60F0">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>EARTHQUAKE_LOSSES</sourceObjSchema>
+<sourceObjName>PROBABLE_MAXIMUM_FISCAL_LOSS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B9A9A19-4A84-9734-1D74-B102F3BFE4A1" name="EARTHQUAKE_LOSSES_PK">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>C##CS347_MAS5774</sourceObjSchema>
+<sourceObjName>SYS_C0011510</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94AAA2FA-8D02-0FC3-9C9D-2469AFCA9F52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

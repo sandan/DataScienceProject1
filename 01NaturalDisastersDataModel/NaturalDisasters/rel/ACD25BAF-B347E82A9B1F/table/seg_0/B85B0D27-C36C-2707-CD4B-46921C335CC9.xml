@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B85B0D27-C36C-2707-CD4B-46921C335CC9" name="SEISMIC_DATA">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>C##CS347_MAS5774</sourceObjSchema>
+<sourceObjName>SEISMIC_DATA</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:15 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATETIME" id="62F68F2A-D19D-D365-AE71-EC7697194CE3">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>DATETIME</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="58F7091C-6E65-8271-40E3-847418C3F11E">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE" id="45705D65-EB32-D5C1-DFDF-7D2BA0209019">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTH" id="AD403787-6F3C-CBDA-D063-CF38EEAE748D">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>DEPTH</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAGNITUDE" id="40A8F1A1-FDF2-3B82-8F34-F6EFAC0256F4">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>MAGNITUDE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAGTYPE" id="CB456EE4-0AD4-9F6E-43FC-DF5424A2F93E">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>MAGTYPE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NBSTATIONS" id="F5AB928F-1B85-DF5E-CA8B-28153B36613C">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>NBSTATIONS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAP" id="10998EF6-24FC-CB6D-F5D3-3029932FD639">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>GAP</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTANCE" id="F5C02864-587B-264C-30C6-5AB418501BD7">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>DISTANCE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RMS" id="067DB001-50C1-9710-2B15-2A2FC228C044">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>RMS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE" id="EFBECBEA-A9D8-894E-3A2E-13599F15FB1C">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>SEISMIC_DATA</sourceObjSchema>
+<sourceObjName>SOURCE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EF296B3-B5CF-997B-C435-46B40E7CA099" name="SEISMIC_DATA_PK">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>C##CS347_MAS5774</sourceObjSchema>
+<sourceObjName>SYS_C0011370</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:19 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62F68F2A-D19D-D365-AE71-EC7697194CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

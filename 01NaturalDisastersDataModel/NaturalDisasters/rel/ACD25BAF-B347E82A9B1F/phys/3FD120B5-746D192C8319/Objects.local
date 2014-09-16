@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
+   <object objectType="TSpace" objectID="C6931ACA-95BB-BD46-CDE9-CDAFDF0AFD2F" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="B12208AC-B6D2-551A-76F4-D2A763AC6B53" name="C##CS347_MAS5774" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="25D12068-6239-7161-D59C-83B17C9D80A8" name="TSUNAMI_SOURCE_DATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C663A47-D742-58AC-7C06-22851D730818" name="TSUNAMI_RUNUP_DATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="8E71301E-E54F-51C1-5173-4CC1283A373B" name="VOLCANO_DATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="B85B0D27-C36C-2707-CD4B-46921C335CC9" name="SEISMIC_DATA" seqName="seg_0"/>
+   <object objectType="Table" objectID="D5C81E03-ECFF-462A-CC75-31D7E39C088B" name="EARTHQUAKE_LOSSES" seqName="seg_0"/>
+   <object objectType="Segment" objectID="66523EA4-CDF9-7486-5005-1C4BEED76015" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="9D7D361A-484D-92F8-FE7D-2FF7C7D26A34" name="Storage6" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>

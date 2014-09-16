@@ -1,0 +1,721 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FB777AA-EE6A-7759-FB5D-20BAE913B38E" name="TSUNAMI SOURCE DATA">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>25D12068-6239-7161-D59C-83B17C9D80A8</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E2047DA4-96A3-CCD4-81DC-E8907D0383A0">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>AA9D39BE-F5BD-BDFA-45B4-820B59CAEAB1</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="YEAR" id="8B74CC4A-4406-BAC5-E5FB-CF5ABD37F8CC">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>9AF66F48-355A-7E40-9978-64FA100BFAD6</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MONTH" id="9C11543D-7223-BBD0-8742-3663734DD812">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>7C4E1B07-3F52-29C1-1942-D9F0E38AB70D</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="DAY" id="1C3F7788-782A-BC69-39CC-4E6ACFE0254F">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>D2B8AC8D-2A0C-2B75-BDFE-6712F1D32699</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="HOUR" id="4E09F1D5-E75C-A226-FA0E-0BA756D0B689">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>8582CD22-D059-4803-F1FC-61F44AC81C29</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MINUTE" id="9A66AD9C-0DE3-0C4B-74F9-19F34CB4F76E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>A5B4B220-8AC7-9B10-3C08-6D2FEA1C7EE5</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="SECOND" id="7D7F92EA-0FB4-2123-4799-97256E825FC9">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>A450CDE4-1793-3ED7-B318-2FF65A081543</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+</Attribute>
+<Attribute name="EVENT VALIDITY" id="DD4D439B-B05E-523F-91E1-73A54229005D">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>9B2C8D5F-A027-2790-64F7-BAE9CA276AE1</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="CAUSE CODE" id="00A24BAF-3D27-1AB3-C1D3-7BD85E9CE65E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>CD21CA37-F62B-5A5F-9CFE-299F6E68CBE2</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="FOCAL DEPTH" id="05100EDA-5264-CB4C-B3F3-F7146A4ABC0D">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>433B3B95-1B6A-89EC-788A-3ED3BA71F93D</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="PRIMARY MAGNITUDE" id="997D3CF6-149A-996B-69B7-4AE21B05BDDF">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>EBD5832D-6DBD-6418-3831-5134616EBE42</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+</Attribute>
+<Attribute name="COUNTRY" id="233722E0-80B7-1159-C159-6D6D3B75B733">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>6C456466-722E-FFA1-7A51-376B4EF2138B</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="STATE" id="55DF13FB-C50B-6188-22BE-BA69A0687068">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>3D8F5EC6-A0C3-F128-84CD-BC7A6F6320A2</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="LOCATION NAME" id="1112AF0D-F28D-78AA-30BA-F71013EF62FA">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>79891AE8-BBBE-D060-7A0F-D422963BD782</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="LATITUDE" id="F3241D7F-CCD7-8C32-FF47-7155F8376F09">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>CF0D3EBE-68AE-1D8B-5307-B61580716481</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+</Attribute>
+<Attribute name="LONGITUDE" id="06804669-EF3B-9809-5B72-88479E075925">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>F2E069CA-760A-5CA0-7D6A-B842EBB31B4A</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+</Attribute>
+<Attribute name="REGION CODE" id="18335D96-084B-B545-8D69-ED8DD58EAD8B">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>84CC65B5-DA9C-1C00-E13A-98FF48774B95</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MAXIMUM WATER HEIGHT" id="B4F849B9-0D0A-461C-0D66-68FB398D5B1B">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>718F6389-5BDC-1A49-AC8D-8F6AC88B1478</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="ABE" id="5C32E445-597B-1256-8A18-BCB59DD7D155">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>093053A6-C1FE-BC68-47F4-AED269E68249</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="IIDA" id="3123A1D7-2AA3-F959-820B-2390668ED645">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>903A6CE0-70F4-164D-8190-41475DDBAC48</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="SOLOVIEV" id="E4C8B506-301F-50D5-4C10-2CD290CDD711">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>58839F24-32CC-2BBF-5A06-2931204BFC35</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="WARNING STATUS" id="DB9B4D3B-B9E6-F239-6124-17CE379D8983">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>FBD7A6B1-B317-346D-E4D7-DCEEC7595B27</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="DEATHS" id="4258E506-F81D-8C6F-8A31-8F4BD42A23FC">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>1476072D-9243-4A98-094C-DA5370DB9DBF</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="DEATHS DESCR" id="964B960D-62E1-D054-16CE-C812439AC5AB">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>7F716B8D-E5E8-D185-1607-F437C5DD8C75</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MISSING" id="C63D041E-3C16-1325-A934-4578A78E472E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>24134849-B021-51D9-B119-920E0318C577</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="MISSING DESCR" id="A91008CD-7563-E9FF-A676-34EC46528D4B">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>CD8D222D-3FDB-613B-3E7C-63E5DFAC0F65</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="INJURIES" id="CB5FE740-75C4-B211-30A2-856A2A3719B1">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>64868A04-4BCB-4676-19D2-19EEEAA15324</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="INJURIES DESCR" id="636F9AFC-0978-6E89-E4DF-5EE149931378">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>14C42DF0-5273-BEF4-B45E-780AEF019626</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="DAMAGE MILLIONS DOLLARS" id="22D8A173-AA6E-57BC-5CA9-B20E19632D28">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>34FC282C-6EEC-9A20-DE0E-DFE9F67076BD</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+</Attribute>
+<Attribute name="DAMAGE DESCR" id="D4039051-4C6E-CD34-AEE8-614435D35628">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>81BD2E52-95B3-5C8B-3979-85FC3ACEC8EA</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="HOUSES DESTROYED" id="F0501AB4-1758-9107-972C-66A469A20FEC">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>BF7D0026-5E59-CBC5-7B89-8A942CB7537C</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="HOUSES DESTROYED DESCR" id="5A5F41B3-F13E-498A-7AC2-59D01698C498">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>1196809F-F1A2-1A50-FCF5-593318A7F7E6</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="HOUSES DAMAGED" id="7087D4A5-588A-D796-C4CC-C30938ADE866">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>49966594-0E5D-0930-5BE9-57B6E372B061</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="HOUSES DAMAGED DESCR" id="BCA0BA50-08B7-ABE3-AF4B-FC9E9ED2E934">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>B6A47D7F-CAF4-DFA3-753C-C91E4E242FAB</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL DEATHS" id="817EFEA9-21F8-8F9A-0D73-DF041B17A574">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>2E3F6DDD-390C-07E8-515D-3E855E948E99</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL DEATHS DESCR" id="9055E9AE-2337-2662-1C3F-8E159EFCA7E2">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>D92ABEAA-22C2-B493-915B-F25F6426BF43</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL MISSING" id="480A1563-9485-C2AF-F26F-0580E17338EE">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>4DE708DD-3A24-04E7-63CF-D839D732F988</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL MISSING DESCR" id="748E57B5-A39B-DE8A-38A2-D54629B5DB4D">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>67C2629E-DE1F-A4AB-B9E7-960FDF982E1C</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL INJURIES" id="6464AC92-DB93-B1B4-CC42-4E9CC66D3134">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>5A5666A3-EE2E-DDBA-4E3A-84DEC1C052C2</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL INJURIES DESCR" id="542F7D6A-8813-747C-C33F-E7B381CE7D89">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>0C8AC010-BEA6-31B9-7478-6B70274A1AD2</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL DAMAGE MILLIONS DOLLARS" id="982AAC2B-4C96-CCB7-17E6-A30C162F9681">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>3A7EF1B7-B1B6-54F1-FCCC-79A4C1A61394</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL DAMAGE DESCR" id="BEB0F631-CFA4-B7B3-69AF-BE8615CBE65E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>FFA832CF-5736-A19C-7C8E-7B4AA2BFAA72</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL HOUSES DESTROYED" id="7A3BFAF3-28C5-8EA6-9D3A-7C65F141FAA9">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>316A607D-39C4-7ED4-406C-C10EDEC6B2CE</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL HOUSES DESTROYED DESCR" id="2627A4EE-0C2C-9781-3C61-2E9047C67D03">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>630A1F2B-00C5-3131-CDD6-EE633DF24E93</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL HOUSES DAMAGED" id="FBD6A22F-E0C2-E897-E78F-8251B932D855">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>411451D9-E3F9-91AF-FB84-0A232880B759</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TOTAL HOUSES DAMAGED DESCR" id="F440FE7C-4B7D-2CA6-E4E5-F7A312F622C1">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>8B2BF914-607C-05B3-5D88-76912E6525B1</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D5E53C5-F043-7D50-341C-2D827E6EA700" name="TSUNAMI SOURCE DATA PK">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>37743417-A72E-1892-DAF7-F13DAE84E4D5</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2047DA4-96A3-CCD4-81DC-E8907D0383A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

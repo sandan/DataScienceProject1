@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##CS347_MAS5774" directorySegmentName="seg_0" id="B12208AC-B6D2-551A-76F4-D2A763AC6B53">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjName>C##CS347_MAS5774</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:14 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+</UserOraclev10g>

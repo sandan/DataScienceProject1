@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SEISMIC_DATA" directorySegmentName="seg_0" id="B85B0D27-C36C-2707-CD4B-46921C335CC9">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:15 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>66523EA4-CDF9-7486-5005-1C4BEED76015</segment>
+<tableSpace>C6931ACA-95BB-BD46-CDE9-CDAFDF0AFD2F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RMS" id="067DB001-50C1-9710-2B15-2A2FC228C044">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GAP" id="10998EF6-24FC-CB6D-F5D3-3029932FD639">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAGNITUDE" id="40A8F1A1-FDF2-3B82-8F34-F6EFAC0256F4">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LONGITUDE" id="45705D65-EB32-D5C1-DFDF-7D2BA0209019">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LATITUDE" id="58F7091C-6E65-8271-40E3-847418C3F11E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATETIME" id="62F68F2A-D19D-D365-AE71-EC7697194CE3">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPTH" id="AD403787-6F3C-CBDA-D063-CF38EEAE748D">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAGTYPE" id="CB456EE4-0AD4-9F6E-43FC-DF5424A2F93E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOURCE" id="EFBECBEA-A9D8-894E-3A2E-13599F15FB1C">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NBSTATIONS" id="F5AB928F-1B85-DF5E-CA8B-28153B36613C">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISTANCE" id="F5C02864-587B-264C-30C6-5AB418501BD7">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:16 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SEISMIC_DATA_PK" id="7EF296B3-B5CF-997B-C435-46B40E7CA099">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:21 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<segment>9D7D361A-484D-92F8-FE7D-2FF7C7D26A34</segment>
+<tableSpace>C6931ACA-95BB-BD46-CDE9-CDAFDF0AFD2F</tableSpace>
+<indexSegment>9D7D361A-484D-92F8-FE7D-2FF7C7D26A34</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

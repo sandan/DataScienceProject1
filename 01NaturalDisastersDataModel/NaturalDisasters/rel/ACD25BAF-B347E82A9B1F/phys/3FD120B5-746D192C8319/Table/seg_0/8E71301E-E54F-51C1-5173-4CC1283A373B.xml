@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VOLCANO_DATA" directorySegmentName="seg_0" id="8E71301E-E54F-51C1-5173-4CC1283A373B">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:15 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>66523EA4-CDF9-7486-5005-1C4BEED76015</segment>
+<tableSpace>C6931ACA-95BB-BD46-CDE9-CDAFDF0AFD2F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LATITUDE" id="163F37F1-10BA-EA9B-946F-9BCA830E0537">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAMAGE_SCALE" id="1B4C9688-C258-7B46-B119-47E87E0CBCB9">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE" id="289C2B2D-3A4E-9097-8E7B-59C054AD1DBE">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOUSES_DEST" id="2B435DCB-DA64-1C5E-0828-4CF981DE5CE5">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOUSES_DEST_DESCR" id="3204226A-DB6E-2D43-DC63-9A95DF26B1E7">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAMAGE_MILL" id="48477DC7-B3F1-9D59-C834-26425D5182D1">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ELEVATION" id="52EF0B93-587A-AE2A-367E-4473029012ED">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY" id="53F25C83-9865-84CC-385A-F9B23B9FFAC2">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="605F242C-CF9B-3FDE-231A-B975A664F3A0">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTH" id="9693648A-A3F5-867F-FAB7-709D1032E576">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DEATHS" id="9B771E1F-980D-0C94-5A51-1AAA4EE7F57A">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="9DD8B508-0BE9-2723-4E81-E0D1C3664A27">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AGENT" id="AC8BD6CD-BB78-21B9-CCE3-DD8CF5C3C88D">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_INJURIES" id="B2161389-94D5-DC66-6F27-9C035ADBE74E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEI" id="B843028B-E7AD-D77A-08A6-B86754A2A1CA">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LONGITUDE" id="BBD2540F-7888-1AEC-B1F7-EF53FD545611">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAY" id="C899C9E4-16E5-D773-FA0F-7A5E8792FBCD">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION" id="DFB24827-C8E3-2089-F923-05737C1859E4">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DEATHS_DESCR" id="E762E0CC-5A63-4701-DCFC-8F86970CB4CF">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_INJURIES_DESCR" id="FA55260F-85A9-1C1F-B861-9E868D6B248E">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

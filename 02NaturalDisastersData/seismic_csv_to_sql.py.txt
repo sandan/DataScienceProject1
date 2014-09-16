@@ -1,0 +1,32 @@
+
+#takes a csv (commas) separated data to bulk insertion statements in sql
+def fl(x):
+    if x =='':
+        return "\'\'"
+    return str(float(x))
+def ig(x):
+    if x=='':
+        return "\'\'"
+    return str(int(x))
+
+def insert(table=None,file_path=None):
+    assert (table is not None) and (type(table) is str)
+    assert file_path is not None
+
+    with open(file_path,'r') as f:
+        itty=iter(f)
+        cols=str(next(itty)).split(',')
+        assert cols is not None
+
+        for line in itty:
+            try:
+                x="INSERT INTO "+table+" VALUES ("
+                q=line.split(',')
+                x+="'{0}',{1},{2},{3},{4},'{5}',{6},{7},{8},{9},'{10}');".format(q[0][:-3],fl(q[1]),fl(q[2]),fl(q[3]),fl(q[4]),q[5],fl(q[6]),fl(q[7]),fl(q[8]),fl(q[9]),q[10])
+                print(x)
+            except Exception as e:
+                print("ERROR:" +line)
+                print(e)
+                break
+
+insert(table="seismic_data",file_path="./data/seismic.txt")

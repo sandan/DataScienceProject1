@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD9AA1DA-69DC-BFD4-CCE0-10CCBB834583" name="EARTHQUAKE LOSSES">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>D5C81E03-ECFF-462A-CC75-31D7E39C088B</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GID" id="EE5E70D8-BD0D-546F-CA86-E09E30F437C8">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>94AAA2FA-8D02-0FC3-9C9D-2469AFCA9F52</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TERR ID" id="44C70820-05A5-7F5E-FF8F-0969FD07D8CC">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>C8CC5645-B7F7-C542-0A21-7F99BEEAAC13</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+</Attribute>
+<Attribute name="TERR NAME" id="11FE7C7A-8060-1BFC-343E-4B9ABADBBFD7">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>01C6606D-954F-1E2B-31EF-642EE5F6E279</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>44 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="ISO3 CODE" id="E2842D14-43E5-EF18-AEDD-DD3C883143B2">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>44CC747B-4446-7DA9-7347-AA247E450733</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="REGION" id="62FEA9DA-850D-AA96-C9B2-79F90A456BDB">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>FD8ACA5E-8E14-49C5-713E-7A46744771C6</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="AVERAGE ANNUAL LOSS" id="C61A75B0-5FC5-6367-6054-0E38DF9BA338">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>7C4CC181-2A3D-E0FB-5EB1-F43C19345153</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+</Attribute>
+<Attribute name="PROBABLE MAXIMUM LOSS" id="E27F9537-1352-129C-A201-E94E2A77E998">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>C0171814-8D56-C514-18CD-A48CD24B9F0C</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="AVERAGE ANNUAL FISCAL LOSS" id="1C967B0C-0ECF-A71E-5DBB-869B2D4F4CFE">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>1629D7E4-37BA-1B39-3F0E-8A0B35082D4D</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+</Attribute>
+<Attribute name="PROBABLE MAXIMUM FISCAL LOSS" id="E2D94E8C-3049-DBAB-22C6-86E0D61E6C35">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>14F284D3-7A5B-B7F3-CFE0-9A86590F60F0</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABF1EA2E-9014-F7BA-9BA6-54B30A5230C7" name="EARTHQUAKE LOSSES PK">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>0B9A9A19-4A84-9734-1D74-B102F3BFE4A1</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE5E70D8-BD0D-546F-CA86-E09E30F437C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

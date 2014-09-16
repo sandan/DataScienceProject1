@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="NaturalDisasters" id="C2ECAD73-A182-C5A9-261F-20712F4A92EB" version="3.5">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:39:04 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C2ECAD73-A182-C5A9-261F-20712F4A92EB</designId>
+</OSDM_Design>

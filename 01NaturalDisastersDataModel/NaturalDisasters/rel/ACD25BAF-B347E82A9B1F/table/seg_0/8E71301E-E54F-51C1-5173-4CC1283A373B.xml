@@ -1,0 +1,308 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E71301E-E54F-51C1-5173-4CC1283A373B" name="VOLCANO_DATA">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>C##CS347_MAS5774</sourceObjSchema>
+<sourceObjName>VOLCANO_DATA</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:15 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<schemaObject>3C5ADFB2-8699-C89E-B95E-89622C19EF67</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="YEAR" id="605F242C-CF9B-3FDE-231A-B975A664F3A0">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="9693648A-A3F5-867F-FAB7-709D1032E576">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>MONTH</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY" id="C899C9E4-16E5-D773-FA0F-7A5E8792FBCD">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>DAY</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="9DD8B508-0BE9-2723-4E81-E0D1C3664A27">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION" id="DFB24827-C8E3-2089-F923-05737C1859E4">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>LOCATION</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="53F25C83-9865-84CC-385A-F9B23B9FFAC2">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>28 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="163F37F1-10BA-EA9B-946F-9BCA830E0537">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>LATITUDE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE" id="BBD2540F-7888-1AEC-B1F7-EF53FD545611">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>LONGITUDE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ELEVATION" id="52EF0B93-587A-AE2A-367E-4473029012ED">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>ELEVATION</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="289C2B2D-3A4E-9097-8E7B-59C054AD1DBE">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEI" id="B843028B-E7AD-D77A-08A6-B86754A2A1CA">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>VEI</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENT" id="AC8BD6CD-BB78-21B9-CCE3-DD8CF5C3C88D">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>AGENT</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_DEATHS" id="9B771E1F-980D-0C94-5A51-1AAA4EE7F57A">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>NUM_DEATHS</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_DEATHS_DESCR" id="E762E0CC-5A63-4701-DCFC-8F86970CB4CF">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>NUM_DEATHS_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_INJURIES" id="B2161389-94D5-DC66-6F27-9C035ADBE74E">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>NUM_INJURIES</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_INJURIES_DESCR" id="FA55260F-85A9-1C1F-B861-9E868D6B248E">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>NUM_INJURIES_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAMAGE_MILL" id="48477DC7-B3F1-9D59-C834-26425D5182D1">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>DAMAGE_MILL</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAMAGE_SCALE" id="1B4C9688-C258-7B46-B119-47E87E0CBCB9">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>DAMAGE_SCALE</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSES_DEST" id="2B435DCB-DA64-1C5E-0828-4CF981DE5CE5">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>HOUSES_DEST</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOUSES_DEST_DESCR" id="3204226A-DB6E-2D43-DC63-9A95DF26B1E7">
+<sourceConnName>datasci</sourceConnName>
+<sourceObjSchema>VOLCANO_DATA</sourceObjSchema>
+<sourceObjName>HOUSES_DEST_DESCR</sourceObjName>
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:40:18 UTC</createdTime>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

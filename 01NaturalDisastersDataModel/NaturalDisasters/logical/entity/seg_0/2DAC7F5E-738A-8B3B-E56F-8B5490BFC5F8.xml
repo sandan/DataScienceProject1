@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DAC7F5E-738A-8B3B-E56F-8B5490BFC5F8" name="SEISMIC DATA">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>B85B0D27-C36C-2707-CD4B-46921C335CC9</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DATETIME" id="16B1F3AD-1450-31AD-E503-576DFF5CB2BA">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>62F68F2A-D19D-D365-AE71-EC7697194CE3</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>22 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="LATITUDE" id="C4D3EA19-B488-2D4D-0415-D6CDAC2EF179">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>58F7091C-6E65-8271-40E3-847418C3F11E</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+</Attribute>
+<Attribute name="LONGITUDE" id="BC55BC99-7EAD-27EB-81C5-5A4F43486FC8">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>45705D65-EB32-D5C1-DFDF-7D2BA0209019</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+</Attribute>
+<Attribute name="DEPTH" id="4BE60AAC-7B1C-A9CB-5983-14D0429E4C09">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>AD403787-6F3C-CBDA-D063-CF38EEAE748D</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="MAGNITUDE" id="07633091-A4B4-A1C1-C07D-A96FC2AF03C0">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>40A8F1A1-FDF2-3B82-8F34-F6EFAC0256F4</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="MAGTYPE" id="4B0ED16C-4C35-7AD6-701B-48DE8991D201">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>CB456EE4-0AD4-9F6E-43FC-DF5424A2F93E</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="NBSTATIONS" id="62D6EC24-35DC-4701-76AB-5EAE6BD3D67A">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>F5AB928F-1B85-DF5E-CA8B-28153B36613C</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="GAP" id="4FE4CD12-7DC4-A5CB-F9A5-A6F70D9143A9">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>10998EF6-24FC-CB6D-F5D3-3029932FD639</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="DISTANCE" id="95C2F1B9-2D57-DEF3-B642-A61330842666">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>F5C02864-587B-264C-30C6-5AB418501BD7</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+</Attribute>
+<Attribute name="RMS" id="F939A0D1-715C-EE2E-D365-CA5B4B177641">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>067DB001-50C1-9710-2B15-2A2FC228C044</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+</Attribute>
+<Attribute name="SOURCE" id="817C4499-8A6C-BE72-FE76-C37FCC9279B8">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>EFBECBEA-A9D8-894E-3A2E-13599F15FB1C</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78C1731F-45F6-9292-2B5A-E46FE13DE863" name="SEISMIC DATA PK">
+<createdBy>Mark</createdBy>
+<createdTime>2014-09-16 02:51:49 UTC</createdTime>
+<generatorID>7EF296B3-B5CF-997B-C435-46B40E7CA099</generatorID>
+<ownerDesignName>NaturalDisasters</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ACD25BAF-63D2-294E-F72A-B347E82A9B1F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16B1F3AD-1450-31AD-E503-576DFF5CB2BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

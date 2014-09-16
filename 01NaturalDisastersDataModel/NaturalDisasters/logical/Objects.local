@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="CD9AA1DA-69DC-BFD4-CCE0-10CCBB834583" name="EARTHQUAKE LOSSES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2DAC7F5E-738A-8B3B-E56F-8B5490BFC5F8" name="SEISMIC DATA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FB771943-7494-8932-C5C6-3D1DBB93A626" name="TSUNAMI RUNUP DATA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6FB777AA-EE6A-7759-FB5D-20BAE913B38E" name="TSUNAMI SOURCE DATA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="312087FC-8F39-7495-1048-A79C8AB3BC4E" name="VOLCANO DATA" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
