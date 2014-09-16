@@ -1,84 +1,21 @@
-# More info:
-#   https://github.com/jcheng5/googleCharts
-# Install:
-devtools::install_github("jcheng5/googleCharts")
-library(googleCharts)
-
-# Use global max/min for axes so the view window stays
-# constant as the user moves between years
-xlim <- list(
-  min = min(data$MAGNITUDE),
-  max = max(data$MAGNITUDE)+4
-)
-ylim <- list(
-  min = min(data$MAGNITUDE),
-  max = max(data$MAGNITUDE) + 3
-)
-
+# ui.R
 shinyUI(fluidPage(
-  # This line loads the Google Charts JS library
-  googleChartsInit(),
+  titlePanel("Seismic Activity"),
   
-  # Use the Google webfont "Source Sans Pro"
-  tags$link(
-    href=paste0("http://fonts.googleapis.com/css?",
-                "family=Source+Sans+Pro:300,600,300italic"),
-    rel="stylesheet", type="text/css"),
-  tags$style(type="text/css",
-             "body {font-family: 'Source Sans Pro'}"
-  ),
-  
-  h2("TEST"),
-  
-  googleBubbleChart("chart",
-                    width="100%", height = "475px",
-                    # Set the default options for this chart; they can be
-                    # overridden in server.R on a per-update basis. See
-                    # https://developers.google.com/chart/interactive/docs/gallery/bubblechart
-                    # for option documentation.
-                    options = list(
-                      fontName = "Source Sans Pro",
-                      fontSize = 13,
-                      # Set axis labels and ranges
-                      hAxis = list(
-                        title = "magx",
-                        viewWindow = xlim
-                      ),
-                      vAxis = list(
-                        title = "magy",
-                        viewWindow = ylim
-                      ),
-                      # The default padding is a little too spaced out
-                      chartArea = list(
-                        top = 50, left = 75,
-                        height = "75%", width = "75%"
-                      ),
-                      # Allow pan/zoom
-                      explorer = list(),
-                      # Set bubble visual props
-                      bubble = list(
-                        opacity = 0.4, stroke = "none",
-                        # Hide bubble label
-                        textStyle = list(
-                          color = "none"
-                        )
-                      ),
-                      # Set fonts
-                      titleTextStyle = list(
-                        fontSize = 16
-                      ),
-                      tooltip = list(
-                        textStyle = list(
-                          fontSize = 12
-                        )
-                      )
-                    )
-  ),
-  fluidRow(
-    shiny::column(4, offset = 4,
-                  sliderInput("mag", "mag",
-                              min = min(data$MAGNITUDE), max = max(data$MAGNITUDE),
-                              value = min(data$MAGNITUDE), animate = TRUE)
+  sidebarLayout(
+    sidebarPanel(
+      helpText("Toggle the slide to view Seismic Activity by decade"),
+        
+      sliderInput("year", 
+                  label="Decade",
+                  min = 1960, max = 2010,step=10,
+                value = 1960, animate = FALSE),
+      
+      tableOutput("view")
+    ),  
+    mainPanel(
+      h3(textOutput("text1")),
+      htmlOutput("vis")
     )
   )
 ))

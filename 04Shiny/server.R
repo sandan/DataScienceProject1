@@ -1,39 +1,47 @@
-library(dplyr)
+# server.R
+library(shiny)
+library(googleVis)
 
-shinyServer(function(input, output, session) {
-  
-  # Provide explicit colors for regions, so they don't get recoded when the
-  # different series happen to be ordered differently from year to year.
-  # http://andrewgelman.com/2014/09/11/mysterious-shiny-things/
-  defaultColors <- c("#3366cc", "#dc3912", "#ff9900", "#109618", "#990099", "#0099c6", "#dd4477")
-  series <- structure(
-    lapply(defaultColors, function(color) { list(color=color) }),
-    names = levels(data$MAGNITUDE)
-  )
-  
-  yearData <- reactive({
-    # Filter to the desired year, and put the columns
-    # in the order that Google's Bubble Chart expects
-    # them (name, x, y, color, size). Also sort by region
-    # so that Google Charts orders and colors the regions
-    # consistently.
-    df <- data %.%
-      filter(Year == input$MAGNITUDE) %.%
-      select(MAGNITUDE, MAGNITUDE, MAGNITUDE,
-             Region, MAGNITUDE) %.%
-      arrange(MAGNITUDE)
+a<-load("../02NaturalDisastersData/frames/seismic_1964.RData")
+b<-load("../02NaturalDisastersData/frames/seismic_1974.RData")
+c<-load("../02NaturalDisastersData/frames/seismic_1984.RData")
+d<-load("../02NaturalDisastersData/frames/seismic_1994.RData")
+e<-load("../02NaturalDisastersData/frames/seismic_2004.RData")
+f<-load("../02NaturalDisastersData/frames/seismic_2014.RData")
+
+shinyServer(function(input, output) {
+  myYear <- reactive({
+    input$year
   })
   
-  output$chart <- reactive({
-    # Return the data and options
-    list(
-      data = googleDataTable(yearData()),
-      options = list(
-        title = sprintf(
-          "MAGNITUDE vs. MAGNITUDE, %s",
-          input$MAGNITUDE),
-        series = series
-      )
-    )
+  output$text1 <- renderText({
+    paste("Top Seismic Activity in ", myYear())
   })
-})
+  
+  output$vis <- renderGvis({
+    
+    myData<- reactive({
+      switch(toString(myYear()),
+             '1960' = seismic_1964,
+             '1970' = seismic_1974,
+             '1980' = seismic_1984,
+             '1990' = seismic_1994,
+             '2000' = seismic_2004,
+             '2010'= seismic_2014)
+    })
+    
+    output$view <- renderTable({
+      myData()
+    })  
+    gvisGeoMap(myData(),
+                 locationvar="LATLONG", numvar="MAGNITUDE",
+                 options=list(width=850, height=550,
+                              colorAxis="{colors:['#FFFFFF', '#0000FF']}",
+                 dataMode="markers"))     
+    
+    
+
+})})
+
+
+

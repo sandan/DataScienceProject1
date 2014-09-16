@@ -1,3 +1,4 @@
+
 ---
 title: "CS 378 Data Science Project1: ggplot/shiny"
 output: html_document
@@ -19,29 +20,54 @@ output: html_document
 
 ####This is how RStudio is configured:
 ```{r}
+library(googleVis)
 sessionInfo()
 ```
 
-### googleVisMap visuals
+### Geo Spatial Summary analysis
+#### Top 10 Locations of Tsunami deaths since 2010
 ```{r, echo=FALSE, message=FALSE,results='asis'}
-library(googleVis)
-load("C:/Users/msand_000/Desktop/cs378DS/NaturalDisasters/seismic_1964.RData")
-t<- gvisGeoMap(data=seismic_1964, locationvar="LATLONG",
-               numvar="MAGNITUDE", 
-               options=list(colors="[0xECE7F2,0xA6BDDB,0x2B8CBE]",width="750px",height="500px", dataMode="markers"))
-#plot(t)
-print(t, tag = "chart")
 
-load("C:/Users/msand_000/Desktop/cs378DS/NaturalDisasters/seismic_1974.RData")
-t<- gvisGeoMap(data=seismic_1974, locationvar="LATLONG",
-               numvar="MAGNITUDE", 
+load("../02NaturalDisastersData/frames/tsunami_deaths_top10.RData")
+t<- gvisGeoMap(data=tsunami_deaths_top10, locationvar="LATLONG",
+               numvar="DEATHS", hovervar="DATA",
                options=list(colors="[0xECE7F2,0xA6BDDB,0x2B8CBE]",width="750px",height="500px", dataMode="markers"))
 #plot(t)
 print(t, tag = "chart")
 ```
 
+####Top 10 Financial loss due to Tsunamis since 2010
+```{r, echo=FALSE, message=FALSE,results='asis'}
 
+load("../02NaturalDisastersData/frames/tsunami_financial_top10.RData")
+t<- gvisGeoMap(data=tsunami_financial_top10, locationvar="LATLONG",
+               numvar="MILLIONS OF DOLLARS", hovervar="DATA",
+               options=list(colors="[0xECE7F2,0xA6BDDB,0x2B8CBE]",width="750px",height="500px", dataMode="markers"))
+#plot(t)
+print(t, tag = "chart")
+```
 
+#### Top 10 Locations of Volcano related deaths since 1944
+```{r, echo=FALSE, message=FALSE,results='asis'}
+
+load("../02NaturalDisastersData/frames/volcano_deaths_top10.RData")
+t<- gvisGeoMap(data=volcano_deaths_top10, locationvar="LATLONG",
+               numvar="DEATHS", hovervar="DATA",
+               options=list(colors="[0xECE7F2,0xA6BDDB,0x2B8CBE]",width="750px",height="500px", dataMode="markers"))
+#plot(t)
+print(t, tag = "chart")
+```
+
+####Top 8 Financial damages due to Volcanoes since 1944
+```{r, echo=FALSE, message=FALSE,results='asis'}
+
+load("../02NaturalDisastersData/frames/volcano_financial_top10.RData")
+t<- gvisGeoMap(data=volcano_financial_top10, locationvar="LATLONG",
+               numvar="MILLIONS OF DOLLARS", hovervar="DATA",
+               options=list(colors="[0xECE7F2,0xA6BDDB,0x2B8CBE]",width="750px",height="500px", dataMode="markers"))
+#plot(t)
+print(t, tag = "chart")
+```
 
 ####Sources for the Data
 [__ANSS (Advanced National Seismic System) Global Earthquake Catalog__](http://ncedc.org/anss/catalog-search.html)
@@ -71,3 +97,5 @@ print(t, tag = "chart")
 * hosted by the National Geophysical Data Center of the National Oceanic and Atmospheric Administration
 * search parameters were all left blank (again using the entire data set, unfiltered)
 * the url above links to the 'event' information, you can get to the 'runup' information [__here__](http://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=167&d=166)
+
+View(seismic_1964)
