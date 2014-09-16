@@ -1,0 +1,73 @@
+---
+title: "CS 378 Data Science Project1: ggplot/shiny"
+output: html_document
+---
+
+
+##A look at natural disaster records 
+
+####Our Data Sets
+
+* Global earthquake records from the last 50 years (~570,000 rows)
+* Average annual losses from earthquakes (~ 200 rows after excluding those with missing data)
+* Global tsunami source data (~2,500 rows)
+* Global tsunami runup data (~25,000 rows)
+    + includes tsunamis from approximately the last two thousand years, but mostly from the last few hundred
+* Significant volcanic eruptions data (~650 rows)
+    + includes eruptions over a long period of time (thousands of years) but predominantly contains information from the 1900s
+
+
+####This is how RStudio is configured:
+```{r}
+sessionInfo()
+```
+
+### googleVisMap visuals
+```{r, echo=FALSE, message=FALSE,results='asis'}
+library(googleVis)
+load("C:/Users/msand_000/Desktop/cs378DS/NaturalDisasters/seismic_1964.RData")
+t<- gvisGeoMap(data=seismic_1964, locationvar="LATLONG",
+               numvar="MAGNITUDE", 
+               options=list(colors="[0xECE7F2,0xA6BDDB,0x2B8CBE]",width="750px",height="500px", dataMode="markers"))
+#plot(t)
+print(t, tag = "chart")
+
+load("C:/Users/msand_000/Desktop/cs378DS/NaturalDisasters/seismic_1974.RData")
+t<- gvisGeoMap(data=seismic_1974, locationvar="LATLONG",
+               numvar="MAGNITUDE", 
+               options=list(colors="[0xECE7F2,0xA6BDDB,0x2B8CBE]",width="750px",height="500px", dataMode="markers"))
+#plot(t)
+print(t, tag = "chart")
+```
+
+
+
+
+####Sources for the Data
+[__ANSS (Advanced National Seismic System) Global Earthquake Catalog__](http://ncedc.org/anss/catalog-search.html)
+
+* hosted by the Northern California Earthquake Data Center
+* search parameters used:
+    + catalog = ANSS
+    + start_time = 1964/01/01,00:00:00
+    + end_time = 2014/09/12,22:13:44
+        + covers the last 50 years, anything larger would have been unmanageable/unrealistic at this point
+    + minimum_magnitude = 3.0
+        + 3.0 was chosen as a minimum because that is generally the minimum threshold for people to notice an earthquake
+    + maximum_magnitude = 10
+    + event_type = E
+    
+[__Global Risk Data Platform: Earthquakes - Risk, Annual Average Losses__](http://preview.grid.unep.ch/index.php?preview=data&events=earthquakes&evcat=8&lang=eng)
+
+* rows that didn't have information regarding economic losses (denoted by the value -9999) where excluded when reading the data from Oracle into RStudio
+    
+[__National Geophysical Data Center / World Data Service (NGDC/WDS): Significant Volcanic Eruptions Database__](http://www.ngdc.noaa.gov/nndc/servlet/ShowDatasets?dataset=102557&search_look=50&display_look=50)
+
+* hosted by the National Geophysical Data Center of the National Oceanic and Atmospheric Administration
+* search parameters were all left blank (so we used the entire data set, unfiltered)
+
+[__National Geophysical Data Center / World Data Service (NGDC/WDS): Global Historical Tsunami Database__](http://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=70&d=7)
+
+* hosted by the National Geophysical Data Center of the National Oceanic and Atmospheric Administration
+* search parameters were all left blank (again using the entire data set, unfiltered)
+* the url above links to the 'event' information, you can get to the 'runup' information [__here__](http://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=167&d=166)
